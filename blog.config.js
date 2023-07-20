@@ -19,7 +19,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'yaontheroad', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '手空空 无一物 路遥遥 无止境', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'jinliyao.link', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.jinliyao.link/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'yaontheway@gmail.com', // 邮箱地址 例如mail@tangly1024.com
